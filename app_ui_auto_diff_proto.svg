@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="900" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1440" height="900" fill="#f9f9fb"/>
+
+  <!-- FILTER BAR -->
+  <g id="filter-bar">
+    <rect x="0" y="0" width="1440" height="80" fill="#ffffff"/>
+    <!-- 描述 input -->
+    <text x="20" y="25" font-size="14" fill="#666">描述:</text>
+    <rect x="60" y="10" width="220" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+
+    <!-- 中心 dropdown -->
+    <text x="20" y="65" font-size="14" fill="#666">中心:</text>
+    <rect x="60" y="50" width="150" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+    <polyline points="190,65 198,65 194,70" fill="none" stroke="#999" stroke-width="2"/>
+
+    <!-- 起止时间 -->
+    <text x="300" y="25" font-size="14" fill="#666">起止时间:</text>
+    <rect x="360" y="10" width="140" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+    <text x="510" y="28" font-size="14" fill="#999">→</text>
+    <rect x="540" y="10" width="140" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+
+    <!-- 定时时间 -->
+    <text x="300" y="65" font-size="14" fill="#666">定时时间:</text>
+    <rect x="360" y="50" width="180" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+
+    <!-- 创建人 -->
+    <text x="580" y="25" font-size="14" fill="#666">创建人:</text>
+    <rect x="640" y="10" width="140" height="30" fill="#ffffff" stroke="#d9d9d9" rx="4"/>
+
+    <!-- Buttons -->
+    <rect x="820" y="10" width="70" height="30" rx="4" fill="#1890ff"/>
+    <text x="840" y="30" font-size="14" fill="#fff">搜索</text>
+
+    <rect x="900" y="10" width="70" height="30" rx="4" fill="#d9d9d9"/>
+    <text x="920" y="30" font-size="14" fill="#333">重置</text>
+
+    <rect x="980" y="10" width="70" height="30" rx="4" fill="#1890ff"/>
+    <text x="1000" y="30" font-size="14" fill="#fff">新增</text>
+  </g>
+
+  <!-- TABLE AREA -->
+  <g id="table" transform="translate(0, 100)">
+    <!-- Header row -->
+    <rect x="0" y="0" width="1440" height="40" fill="#fafafa" stroke="#e8e8e8"/>
+    <g font-size="14" fill="#333" font-weight="600">
+      <text x="30" y="25">序号</text>
+      <text x="100" y="25">中心</text>
+      <text x="260" y="25">描述</text>
+      <text x="540" y="25">开始时间</text>
+      <text x="635" y="25">结束时间</text>
+      <text x="730" y="25">定时时间</text>
+      <text x="820" y="25">超时时间</text>
+      <text x="900" y="25">执行状态</text>
+      <text x="1000" y="25">创建时间</text>
+      <text x="1120" y="25">创建人</text>
+      <text x="1200" y="25">是否启用</text>
+      <text x="1300" y="25">操作</text>
+    </g>
+
+    <!-- Row generator (3 sample rows) -->
+    <g id="rows">
+      <!-- Row 1 -->
+      <rect x="0" y="40" width="1440" height="50" fill="#ffffff" stroke="#e8e8e8"/>
+      <text x="30" y="72" font-size="14" fill="#333">1</text>
+      <text x="100" y="72" font-size="14" fill="#333">技术&软件产品中心</text>
+      <text x="260" y="72" font-size="14" fill="#333">H5条线10点18分Bug通知机器人</text>
+      <text x="540" y="72" font-size="14" fill="#333">2025-06-17</text>
+      <text x="635" y="72" font-size="14" fill="#333">2026-06-16</text>
+      <text x="730" y="72" font-size="14" fill="#333">10:18</text>
+      <text x="820" y="72" font-size="14" fill="#333">2</text>
+      <!-- status tag -->
+      <rect x="885" y="53" width="60" height="26" rx="13" fill="#d9f7be"/>
+      <circle cx="901" cy="66" r="4" fill="#52c41a"/>
+      <text x="910" y="70" font-size="12" fill="#52c41a">已执行</text>
+      <text x="1000" y="72" font-size="14" fill="#333">2025-06-17 14:07:22</text>
+      <text x="1120" y="72" font-size="14" fill="#333">李灿灿</text>
+      <!-- Switch ON -->
+      <rect x="1200" y="56" width="40" height="22" rx="11" fill="#1890ff"/>
+      <circle cx="1229" cy="67" r="9" fill="#ffffff"/>
+      <!-- Edit/Delete -->
+      <rect x="1280" y="52" width="60" height="26" rx="4" fill="#1890ff"/>
+      <text x="1298" y="70" font-size="12" fill="#fff">编辑</text>
+      <rect x="1345" y="52" width="60" height="26" rx="4" fill="#ff4d4f"/>
+      <text x="1363" y="70" font-size="12" fill="#fff">删除</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="90" width="1440" height="50" fill="#ffffff" stroke="#e8e8e8"/>
+      <text x="30" y="122" font-size="14" fill="#333">2</text>
+      <text x="100" y="122" font-size="14" fill="#333">技术&软件产品中心</text>
+      <text x="260" y="122" font-size="14" fill="#333">UED&UI组-16:30分提醒机器人</text>
+      <text x="540" y="122" font-size="14" fill="#333">2025-03-01</text>
+      <text x="635" y="122" font-size="14" fill="#333">2028-03-01</text>
+      <text x="730" y="122" font-size="14" fill="#333">16:30</text>
+      <text x="820" y="122" font-size="14" fill="#333">2</text>
+      <!-- status tag pending -->
+      <rect x="885" y="103" width="60" height="26" rx="13" fill="#e6f7ff"/>
+      <circle cx="901" cy="116" r="4" fill="#1890ff"/>
+      <text x="910" y="120" font-size="12" fill="#1890ff">待执行</text>
+      <text x="1000" y="122" font-size="14" fill="#333">2025-06-17 11:13:57</text>
+      <text x="1120" y="122" font-size="14" fill="#333">蔡程</text>
+      <!-- Switch ON -->
+      <rect x="1200" y="106" width="40" height="22" rx="11" fill="#1890ff"/>
+      <circle cx="1229" cy="117" r="9" fill="#ffffff"/>
+      <!-- Edit/Delete -->
+      <rect x="1280" y="102" width="60" height="26" rx="4" fill="#1890ff"/>
+      <text x="1298" y="120" font-size="12" fill="#fff">编辑</text>
+      <rect x="1345" y="102" width="60" height="26" rx="4" fill="#ff4d4f"/>
+      <text x="1363" y="120" font-size="12" fill="#fff">删除</text>
+
+      <!-- Row 3 -->
+      <rect x="0" y="140" width="1440" height="50" fill="#ffffff" stroke="#e8e8e8"/>
+      <text x="30" y="172" font-size="14" fill="#333">3</text>
+      <text x="100" y="172" font-size="14" fill="#333">信息科技中心</text>
+      <text x="260" y="172" font-size="14" fill="#333">服务研发部Bug提醒-晚</text>
+      <text x="540" y="172" font-size="14" fill="#333">2025-03-14</text>
+      <text x="635" y="172" font-size="14" fill="#333">2039-05-31</text>
+      <text x="730" y="172" font-size="14" fill="#333">16:30</text>
+      <text x="820" y="172" font-size="14" fill="#333">4</text>
+      <!-- status tag pending -->
+      <rect x="885" y="153" width="60" height="26" rx="13" fill="#e6f7ff"/>
+      <circle cx="901" cy="166" r="4" fill="#1890ff"/>
+      <text x="910" y="170" font-size="12" fill="#1890ff">待执行</text>
+      <text x="1000" y="172" font-size="14" fill="#333">2025-03-14 10:21:57</text>
+      <text x="1120" y="172" font-size="14" fill="#333">丁伟</text>
+      <!-- Switch ON -->
+      <rect x="1200" y="156" width="40" height="22" rx="11" fill="#1890ff"/>
+      <circle cx="1229" cy="167" r="9" fill="#ffffff"/>
+      <!-- Edit/Delete -->
+      <rect x="1280" y="152" width="60" height="26" rx="4" fill="#1890ff"/>
+      <text x="1298" y="170" font-size="12" fill="#fff">编辑</text>
+      <rect x="1345" y="152" width="60" height="26" rx="4" fill="#ff4d4f"/>
+      <text x="1363" y="170" font-size="12" fill="#fff">删除</text>
+    </g>
+  </g>
+
+  <!-- Pagination -->
+  <g id="pagination" transform="translate(0, 370)">
+    <text x="600" y="30" font-size="12" fill="#666">共74条</text>
+    <rect x="660" y="10" width="28" height="28" rx="4" fill="#f5f5f5" stroke="#d9d9d9"/>
+    <polyline points="675,24 683,24 679,29" fill="none" stroke="#999" stroke-width="2"/>
+    <!-- Pages 1-5 -->
+    <g font-size="12">
+      <rect x="700" y="10" width="28" height="28" rx="4" fill="#1890ff"/>
+      <text x="710" y="30" fill="#fff">1</text>
+      <rect x="734" y="10" width="28" height="28" rx="4" fill="#ffffff" stroke="#d9d9d9"/>
+      <text x="744" y="30" fill="#333">2</text>
+      <rect x="768" y="10" width="28" height="28" rx="4" fill="#ffffff" stroke="#d9d9d9"/>
+      <text x="778" y="30" fill="#333">3</text>
+      <rect x="802" y="10" width="28" height="28" rx="4" fill="#ffffff" stroke="#d9d9d9"/>
+      <text x="812" y="30" fill="#333">4</text>
+      <rect x="836" y="10" width="28" height="28" rx="4" fill="#ffffff" stroke="#d9d9d9"/>
+      <text x="846" y="30" fill="#333">5</text>
+    </g>
+    <text x="874" y="30" font-size="14" fill="#999">...</text>
+    <rect x="900" y="10" width="28" height="28" rx="4" fill="#ffffff" stroke="#d9d9d9"/>
+    <text x="910" y="30" font-size="12" fill="#333">8</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="680" y="450" font-size="12" fill="#999">数据口径说明</text>
+</svg>
