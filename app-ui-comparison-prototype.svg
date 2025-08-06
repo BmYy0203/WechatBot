@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#F5F7FA"/>
+  
+  <!-- Header -->
+  <rect width="1400" height="60" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="24" y="38" font-family="PingFang SC, sans-serif" font-size="18" font-weight="600" fill="#1F2937">App UI自动化比对系统</text>
+  
+  <!-- User Info -->
+  <circle cx="1320" cy="30" r="16" fill="#3B82F6"/>
+  <text x="1312" y="35" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">用</text>
+  <text x="1250" y="35" font-family="PingFang SC, sans-serif" font-size="14" fill="#6B7280">管理员</text>
+  
+  <!-- Filter Section -->
+  <rect x="24" y="80" width="1352" height="80" fill="#FFFFFF" rx="8" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- App Name Filter -->
+  <text x="40" y="105" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">应用名称:</text>
+  <rect x="120" y="90" width="200" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="128" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">请输入应用名称</text>
+  
+  <!-- Version Filter -->
+  <text x="350" y="105" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">版本:</text>
+  <rect x="400" y="90" width="120" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="408" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">选择版本</text>
+  <polygon points="510,102 506,106 514,106" fill="#9CA3AF"/>
+  
+  <!-- Test Date Filter -->
+  <text x="550" y="105" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">测试日期:</text>
+  <rect x="630" y="90" width="120" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="638" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">开始日期</text>
+  <text x="770" y="105" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">至</text>
+  <rect x="790" y="90" width="120" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="798" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">结束日期</text>
+  
+  <!-- Status Filter -->
+  <text x="940" y="105" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">比对状态:</text>
+  <rect x="1020" y="90" width="120" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1028" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">全部状态</text>
+  <polygon points="1130,102 1126,106 1134,106" fill="#9CA3AF"/>
+  
+  <!-- Action Buttons -->
+  <rect x="1180" y="90" width="70" height="32" fill="#3B82F6" rx="4"/>
+  <text x="1205" y="109" font-family="PingFang SC, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">搜索</text>
+  
+  <rect x="1270" y="90" width="70" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1295" y="109" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">重置</text>
+  
+  <!-- New Test Button -->
+  <text x="40" y="145" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">创建人:</text>
+  <rect x="100" y="130" width="120" height="32" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="108" y="149" font-family="PingFang SC, sans-serif" font-size="14" fill="#9CA3AF">全部</text>
+  <polygon points="210,142 206,146 214,146" fill="#9CA3AF"/>
+  
+  <rect x="1270" y="130" width="106" height="32" fill="#10B981" rx="4"/>
+  <text x="1295" y="149" font-family="PingFang SC, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">+ 新建测试</text>
+  
+  <!-- Table Container -->
+  <rect x="24" y="180" width="1352" height="660" fill="#FFFFFF" rx="8" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Table Header -->
+  <rect x="24" y="180" width="1352" height="48" fill="#F9FAFB" rx="8 8 0 0" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Table Headers -->
+  <text x="50" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">序号</text>
+  <text x="120" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">应用名称</text>
+  <text x="250" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">版本信息</text>
+  <text x="380" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">基准截图</text>
+  <text x="480" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">测试截图</text>
+  <text x="580" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">相似度</text>
+  <text x="680" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">差异点数</text>
+  <text x="780" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">比对状态</text>
+  <text x="880" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">测试时间</text>
+  <text x="1000" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">创建人</text>
+  <text x="1100" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">是否启用</text>
+  <text x="1220" y="207" font-family="PingFang SC, sans-serif" font-size="14" font-weight="600" fill="#374151">操作</text>
+  
+  <!-- Table Rows -->
+  <!-- Row 1 -->
+  <line x1="24" y1="228" x2="1376" y2="228" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="55" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">1</text>
+  <text x="120" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">购物商城App</text>
+  <text x="250" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">v2.1.0 vs v2.0.8</text>
+  
+  <!-- Screenshot thumbnails -->
+  <rect x="380" y="240" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="395" y="257" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <rect x="480" y="240" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="495" y="257" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <text x="590" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#059669">98.5%</text>
+  <text x="700" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#DC2626">3</text>
+  
+  <!-- Status badge -->
+  <rect x="780" y="242" width="60" height="26" fill="#DCFCE7" rx="13"/>
+  <text x="800" y="257" font-family="PingFang SC, sans-serif" font-size="12" fill="#16A34A">已完成</text>
+  
+  <text x="880" y="248" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">2025-01-15</text>
+  <text x="880" y="262" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">14:30:25</text>
+  <text x="1000" y="255" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">张三</text>
+  
+  <!-- Toggle switch -->
+  <rect x="1120" y="247" width="40" height="20" fill="#3B82F6" rx="10"/>
+  <circle cx="1150" cy="257" r="8" fill="#FFFFFF"/>
+  
+  <!-- Action buttons -->
+  <rect x="1220" y="242" width="50" height="26" fill="#3B82F6" rx="4"/>
+  <text x="1235" y="257" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">查看</text>
+  
+  <rect x="1280" y="242" width="50" height="26" fill="#EF4444" rx="4"/>
+  <text x="1295" y="257" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">删除</text>
+  
+  <!-- Row 2 -->
+  <line x1="24" y1="278" x2="1376" y2="278" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="55" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">2</text>
+  <text x="120" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">社交媒体App</text>
+  <text x="250" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">v1.8.2 vs v1.8.0</text>
+  
+  <rect x="380" y="290" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="395" y="307" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <rect x="480" y="290" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="495" y="307" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <text x="590" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#F59E0B">85.2%</text>
+  <text x="700" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#DC2626">12</text>
+  
+  <rect x="780" y="292" width="60" height="26" fill="#FEF3C7" rx="13"/>
+  <text x="800" y="307" font-family="PingFang SC, sans-serif" font-size="12" fill="#D97706">进行中</text>
+  
+  <text x="880" y="298" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">2025-01-15</text>
+  <text x="880" y="312" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">13:45:18</text>
+  <text x="1000" y="305" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">李四</text>
+  
+  <rect x="1120" y="297" width="40" height="20" fill="#3B82F6" rx="10"/>
+  <circle cx="1150" cy="307" r="8" fill="#FFFFFF"/>
+  
+  <rect x="1220" y="292" width="50" height="26" fill="#3B82F6" rx="4"/>
+  <text x="1235" y="307" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">查看</text>
+  
+  <rect x="1280" y="292" width="50" height="26" fill="#EF4444" rx="4"/>
+  <text x="1295" y="307" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">删除</text>
+  
+  <!-- Row 3 -->
+  <line x1="24" y1="328" x2="1376" y2="328" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="55" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">3</text>
+  <text x="120" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">金融理财App</text>
+  <text x="250" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">v3.0.1 vs v2.9.8</text>
+  
+  <rect x="380" y="340" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="395" y="357" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <rect x="480" y="340" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="495" y="357" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <text x="590" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#DC2626">62.8%</text>
+  <text x="700" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#DC2626">28</text>
+  
+  <rect x="780" y="342" width="60" height="26" fill="#FEE2E2" rx="13"/>
+  <text x="800" y="357" font-family="PingFang SC, sans-serif" font-size="12" fill="#DC2626">失败</text>
+  
+  <text x="880" y="348" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">2025-01-15</text>
+  <text x="880" y="362" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">12:20:33</text>
+  <text x="1000" y="355" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">王五</text>
+  
+  <rect x="1120" y="347" width="40" height="20" fill="#D1D5DB" rx="10"/>
+  <circle cx="1130" cy="357" r="8" fill="#FFFFFF"/>
+  
+  <rect x="1220" y="342" width="50" height="26" fill="#3B82F6" rx="4"/>
+  <text x="1235" y="357" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">查看</text>
+  
+  <rect x="1280" y="342" width="50" height="26" fill="#EF4444" rx="4"/>
+  <text x="1295" y="357" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">删除</text>
+  
+  <!-- Row 4 -->
+  <line x1="24" y1="378" x2="1376" y2="378" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="55" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">4</text>
+  <text x="120" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">游戏娱乐App</text>
+  <text x="250" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">v4.2.0 vs v4.1.5</text>
+  
+  <rect x="380" y="390" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="395" y="407" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <rect x="480" y="390" width="40" height="30" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="1" rx="2"/>
+  <text x="495" y="407" font-family="PingFang SC, sans-serif" font-size="10" fill="#6B7280">截图</text>
+  
+  <text x="590" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#059669">95.7%</text>
+  <text x="700" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#DC2626">5</text>
+  
+  <rect x="780" y="392" width="60" height="26" fill="#DCFCE7" rx="13"/>
+  <text x="800" y="407" font-family="PingFang SC, sans-serif" font-size="12" fill="#16A34A">已完成</text>
+  
+  <text x="880" y="398" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">2025-01-14</text>
+  <text x="880" y="412" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">16:15:42</text>
+  <text x="1000" y="405" font-family="PingFang SC, sans-serif" font-size="14" fill="#374151">赵六</text>
+  
+  <rect x="1120" y="397" width="40" height="20" fill="#3B82F6" rx="10"/>
+  <circle cx="1150" cy="407" r="8" fill="#FFFFFF"/>
+  
+  <rect x="1220" y="392" width="50" height="26" fill="#3B82F6" rx="4"/>
+  <text x="1235" y="407" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">查看</text>
+  
+  <rect x="1280" y="392" width="50" height="26" fill="#EF4444" rx="4"/>
+  <text x="1295" y="407" font-family="PingFang SC, sans-serif" font-size="12" fill="#FFFFFF">删除</text>
+  
+  <!-- Pagination -->
+  <rect x="24" y="800" width="1352" height="40" fill="#FFFFFF"/>
+  <text x="40" y="823" font-family="PingFang SC, sans-serif" font-size="14" fill="#6B7280">共156条</text>
+  
+  <!-- Pagination controls -->
+  <rect x="1180" y="808" width="30" height="24" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1192" y="822" font-family="PingFang SC, sans-serif" font-size="12" fill="#374151">1</text>
+  
+  <rect x="1220" y="808" width="30" height="24" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1232" y="822" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">2</text>
+  
+  <rect x="1260" y="808" width="30" height="24" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1272" y="822" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">3</text>
+  
+  <text x="1300" y="822" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">...</text>
+  
+  <rect x="1320" y="808" width="30" height="24" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1" rx="4"/>
+  <text x="1330" y="822" font-family="PingFang SC, sans-serif" font-size="12" fill="#6B7280">></text>
+  
+  <text x="1280" y="823" font-family="PingFang SC, sans-serif" font-size="14" fill="#6B7280">10条/页</text>
+</svg>
